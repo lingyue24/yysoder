@@ -16,7 +16,7 @@
  //用Get讀取資料
     window.onload = () => {
      // api url - google appscript 產出的 url
-        let requestURL = "https://script.google.com/.........";
+        let requestURL = "https://script.google.com/macros/s/AKfycbyPhRC9BgDDnw4DO5dGxlZ9QInL8_K_I9qQ3OPbcl9cbrBthawAitRdDE6CZvoPQTAU/exec.";
         let request = new XMLHttpRequest();
         request.open("GET", requestURL);
         request.responseType = "json";
@@ -56,7 +56,7 @@
             // 這邊用get type
             type: "get",
             // api url - google appscript 產出的 url
-            url: "https://script.google.com/.........",
+            url: "https://script.google.com/macros/s/AKfycbyPhRC9BgDDnw4DO5dGxlZ9QInL8_K_I9qQ3OPbcl9cbrBthawAitRdDE6CZvoPQTAU/exec",
             // 剛剛整理好的資料帶入
             data: data,
             // 資料格式是JSON
